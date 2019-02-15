@@ -9,7 +9,7 @@
             <transform id="route-transform">
                 <method ref="myTransformer"/>
             </transform>
-            <log id="route-log" message=">>>version 2: ${body}"/>
+            <log id="route-log" message=">>>version 2: Git Local commit ${body}"/>
         </route>
     </camelContext>
 </beans>
